@@ -1,0 +1,172 @@
+
+/* Mengatur seluruh area teks luar */
+.teks {
+  text-align: center;
+  color: rgb(7, 7, 7); /* Mengubah warna teks welcome & paragraf agar kontras dengan background gelap */
+  font-family: sans-serif;
+  padding: 20px;
+   font-size: 30px;
+}
+
+.f1 {
+
+  color: rgb(7, 7, 7); /* Mengubah warna teks welcome & paragraf agar kontras dengan background gelap */
+  font-family: sans-serif;
+  padding: 50px;
+   line-height: 0.4;
+   font-size: 40px;
+}
+
+.wlcm {
+ text-align: center;
+  color: rgb(7, 7, 7); /* Mengubah warna teks welcome & paragraf agar kontras dengan background gelap */
+  font-family: sans-serif;
+   font-size: 50px;
+}
+
+.wlcm1 {
+ text-align: center;
+  color: rgb(7, 7, 7); /* Mengubah warna teks welcome & paragraf agar kontras dengan background gelap */
+  font-family: sans-serif;
+   font-size: 40px;
+}
+
+.txttps{
+    position: relative;
+    top: 20px; /* This will move it 20px up */
+    left: 100px; /* This will move it 20px to the right */
+    font-family: sans-serif;
+   font-size: 20px;
+
+   
+}
+
+.txttps1{
+    position: relative;
+    top: 20px; /* This will move it 20px up */
+    left: 1000px; /* This will move it 20px to the right */
+    font-family: sans-serif;
+   font-size: 60px;
+  margin-bottom: 100px; /* between paragraphs */
+   
+}
+ 
+/* Mengatur kotak gambar */
+.container {
+  position: relative; /* Kunci agar teks "MY PORTOFOLIO" mengapung di atas gambar */
+  width: 100%;
+  max-width: 300px;  /* Batas maksimal lebar gambar */
+  margin: 30px auto; /* Mendorong paragraf ke bawah (30px) & membuat gambar ke tengah halaman (auto) */
+}
+
+/* Mengatur teks di atas gambar */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(112, 105, 105);
+  font-weight: bold;
+  font-size: 20px;
+  white-space: nowrap; /* Mencegah teks turun ke bawah di dalam gambar */
+}
+
+.container1 {
+  position: relative; /* Kunci agar teks "MY PORTOFOLIO" mengapung di atas gambar */
+  width: 100%;
+  max-width: 300px;  /* Batas maksimal lebar gambar */
+  margin: 30px auto; /* Mendorong paragraf ke bawah (30px) & membuat gambar ke tengah halaman (auto) */
+  right: 200px; 
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  color: rgb(41, 44, 48);
+  font-weight: bold;
+  font-size: 40px;
+  white-space: nowrap; /* Mencegah teks turun ke bawah di dalam gambar */
+  text-align: center; 
+}
+
+/* Mengatur jarak antar paragraf di bawah gambar */
+p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.gallery-item {
+  margin: 5px;
+  border: 1px solid rgb(95, 87, 85);
+  width: 420px;
+}
+
+.gallery-item:hover {
+  border: 1px solid rgb(95, 87, 85);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item .desc {
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.gmbrabt {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+  right: 100px; /* This will move it 20px to the right */
+
+}
+.gmbrabt1 {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+  position: relative;
+    top: -50px; /* This will move it 20px up */
+    right: 200px; /* This will move it 20px to the right */
+    transform: rotate(-15deg);
+}
+
+.gmbrabt2 {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+  position: relative;
+    top: 150px; /* This will move it 20px up */
+    right: 0px; /* This will move it 20px to the right */
+    transform: rotate(15deg);
+}
+
+.gmbrabt3 {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+  position: relative;
+    top: 200px; /* This will move it 20px up */
+    right:1200px; /* This will move it 20px to the right */
+    transform: rotate(0deg);
+}
+
+.gmbrabt4 {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+  position: relative;
+    top: 200px; /* This will move it 20px up */
+    right: 500px; /* This will move it 20px to the right */
+    transform: rotate(0deg);
+}
