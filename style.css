@@ -44,7 +44,7 @@
 .txttps1{
     position: relative;
     top: 20px; /* This will move it 20px up */
-    left: 1000px; /* This will move it 20px to the right */
+    left: 670px; /* This will move it 20px to the right */
     font-family: sans-serif;
    font-size: 60px;
   margin-bottom: 100px; /* between paragraphs */
@@ -106,7 +106,7 @@ p {
 .gallery-item {
   margin: 5px;
   border: 1px solid rgb(95, 87, 85);
-  width: 420px;
+  width:275px;
 }
 
 .gallery-item:hover {
@@ -120,8 +120,9 @@ p {
 
 .gallery-item .desc {
   padding: 5px;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
+  font-weight: bold;
 }
 
 .gmbrabt {
@@ -146,8 +147,8 @@ p {
   border: 1px dotted black;
   margin: 0px 0px 15px 20px;
   position: relative;
-    top: 150px; /* This will move it 20px up */
-    right: 0px; /* This will move it 20px to the right */
+    top: 250px; /* This will move it 20px up */
+    right: -150px; /* This will move it 20px to the right */
     transform: rotate(15deg);
 }
 
@@ -157,7 +158,7 @@ p {
   margin: 0px 0px 15px 20px;
   position: relative;
     top: 200px; /* This will move it 20px up */
-    right:1200px; /* This will move it 20px to the right */
+    right:670px; /* This will move it 20px to the right */
     transform: rotate(0deg);
 }
 
